@@ -1165,8 +1165,8 @@ p.form-message.error {
     width: 100%;
     height: 50px;
     padding: 0 20px;
-    border: 1px solid #EB3656;
-    background-color: #ffeae1; }
+    border: 1px solid #f5a3aa;
+    background-color: #F6C4C8; }
   .footer-newsleter .newsleter button {
     border: 0;
     width: 66px;
@@ -1198,6 +1198,12 @@ p.form-message.error {
       -o-transform: translateY(-50%);
       transform: translateY(-50%); }
 
+      .black-footer {
+        background-color: #000; /* Black background color */
+        color: #fff5f1; /* White text color for contrast */
+        padding: 20px 0; /* Adjust padding as needed */
+    }
+
 .copyright-area {
   border-top: 1px solid #eceff8;
   padding: 13px 0; }
@@ -1222,7 +1228,7 @@ p.form-message.error {
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   color: #fff;
-  background-color: #EB3656; }
+  background-color: #f5a3aa; }
   .back-to-top:hover {
-    color: #EB3656;
+    color: #f5a3aa;
     background-color: #fff; }
