@@ -666,6 +666,18 @@ p {
         -o-transform: translateY(-50%);
         transform: translateY(-50%); }
 
+  /* Hide the button by default */
+.button-container {
+  display: none;
+}
+
+/* Show the button on mobile devices */
+@media (max-width: 767px) {
+  .button-container {
+      display: block;
+      padding-bottom: 20px;
+  }
+}
 /*===========================
     3.ABOUT css 
 ===========================*/
