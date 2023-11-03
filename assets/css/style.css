@@ -801,7 +801,7 @@ p {
 
  .circle-image {
         margin-top: 30px;
-        width: 30%; /* Make sure the image fills the circle */
+        width: 40%; /* Make sure the image fills the circle */
         height: auto;
         border-radius: 50%; /* Ensure the image follows the circular shape */
       }
