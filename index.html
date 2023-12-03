@@ -40,7 +40,33 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 
+      <!-- Flodesk script -->
+    <script>
+        (function(w, d, t, h, s, n) {
+            w.FlodeskObject = n;
+            var fn = function() {
+                (w[n].q = w[n].q || []).push(arguments);
+            };
+            w[n] = w[n] || fn;
+            var f = d.getElementsByTagName(t)[0];
+            var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+            var sm = d.createElement(t);
+            sm.async = true;
+            sm.type = 'module';
+            sm.src = h + s + '.mjs' + v;
+            f.parentNode.insertBefore(sm, f);
+            var sn = d.createElement(t);
+            sn.async = true;
+            sn.noModule = true;
+            sn.src = h + s + '.js' + v;
+            f.parentNode.insertBefore(sn, f);
+        })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+    </script>
 
 </head>
 
@@ -223,13 +249,15 @@
 
  <!--======  NEWSLETTER PART STARTERS ======-->
 
-<div id="fd-form-656c1593717e716ed03eba7c"></div>
-<script>
-  window.fd('form', {
-    formId: '656c1593717e716ed03eba7c',
-    containerEl: '#fd-form-656c1593717e716ed03eba7c'
-  });
-</script>
+    <!-- Flodesk form script -->
+    <div id="fd-form-656c1593717e716ed03eba7c"></div>
+    <script>
+        window.fd('form', {
+            formId: '656c1593717e716ed03eba7c',
+            containerEl: '#fd-form-656c1593717e716ed03eba7c'
+        });
+    </script>
+
 
 
   <!--======  NEWSLETTER PART ENDS ======-->
@@ -342,16 +370,6 @@
     <!-- row -->
 
 
-
-
-
-
-
-
-
-    <!--====== jquery js ======-->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 
     <!--====== Bootstrap js ======-->
     <script src="assets/js/bootstrap.min.js"></script>
