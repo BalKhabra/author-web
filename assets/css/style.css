@@ -1131,7 +1131,7 @@ p.form-message.error {
 
 .section-with-paper-background {
   background-color: #fff; /* Set background color to white */
-  padding: 20px 90px 70px 90px; /* Add padding for spacing around content */
+  padding: 20px 50px 70px 50px; /* Add padding for spacing around content */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
   margin: 0;
   max-width: 100%;
