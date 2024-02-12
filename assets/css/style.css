@@ -1088,6 +1088,77 @@ p.form-message.error {
   margin-top: 5px;
   color: #f00; }
 
+  /*===========================
+       10.BLOG css 
+===========================*/
+.single-blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.single-blog .blog-title {
+  margin: 0; /* Reset default margin for h2 */
+}
+
+.blog-meta {
+  color: #ED83AA;
+}
+
+.blog-content-wrapper {
+  margin: 0px 200px 10px 200px;
+}
+
+.article-content {
+  text-align: justify; /* Align text to justify */
+  text-indent: 20px; /* Add an initial indent of 20 pixels */
+  line-height: 1.5; /* Set line height for better readability, adjust as needed */
+}
+
+/* Additional styling for headings if necessary */
+.article-content h1,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Center-align headings */
+  margin-top: 20px;
+}
+
+.section-with-paper-background {
+  background-color: #fff; /* Set background color to white */
+  padding: 20px 90px 70px 90px; /* Add padding for spacing around content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  margin: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 1.6;
+  overflow-y: auto; 
+  max-height: 800px; /* Adjust the max-height based on your design */
+}
+
+.section-with-paper-background p {
+  text-indent: 30px; /* Set positive text-indent for the first line */
+  margin: 0px; /* Remove default margin to avoid extra spacing */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.name-title {
+  font-weight: 600;
+  font-size: 25px;
+  font-style: italic;
+  color: #ED83AA;
+}
+
+
+
 /*===========================
        10.FOOTER css 
 ===========================*/
